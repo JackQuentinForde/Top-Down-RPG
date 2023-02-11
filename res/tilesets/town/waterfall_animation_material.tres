@@ -1,0 +1,14 @@
+[gd_resource type="CanvasItemMaterial" load_steps=4 format=1]
+
+[ext_resource path="res://res/tilesets/town/waterfall_animation_shader.shd" type="Shader" id=1]
+[ext_resource path="res://res/tilesets/town/waterfall1.png" type="Texture" id=2]
+[ext_resource path="res://res/tilesets/town/waterfall2.png" type="Texture" id=3]
+
+[resource]
+
+shader/shader = ExtResource( 1 )
+shader/shading_mode = 0
+shader_param/waterfall1 = ExtResource( 2 )
+shader_param/waterfall2 = ExtResource( 3 )
+shader_param/speed = 1.0
+
